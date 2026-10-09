@@ -53,7 +53,7 @@ language_detection/
 
 ## How to Run
 
-1. Download or clone this repository.
+1. Clone or download the repository.
 
 2. Make sure `Language_Detector.ipynb` and `language.csv` are in the same folder.
 
@@ -92,7 +92,7 @@ The confidence score represents the model's predicted probability, not a guarant
 
 The **E-commerce Data Analysis** project focuses on analyzing e-commerce sales data to understand sales performance, customer purchasing behavior, and business trends. It involves data cleaning, exploratory data analysis, and data visualization to extract meaningful insights from the dataset.
 
-The project also includes a sales dashboard in PDF format to present business information in a clear and understandable way.
+The project includes a sales dashboard that presents business information in a clear and understandable visual format.
 
 ## Features
 
@@ -100,7 +100,7 @@ The project also includes a sales dashboard in PDF format to present business in
 * **Exploratory Data Analysis:** Explores the dataset to identify patterns and trends.
 * **Sales Analysis:** Analyzes sales data to understand business performance.
 * **Data Visualization:** Presents information through visualizations and a sales dashboard.
-* **Business Insights:** Helps understand sales trends and customer purchasing behavior.
+* **Business Insights:** Helps explore sales trends and customer purchasing behavior.
 
 ## Technologies Used
 
@@ -109,7 +109,7 @@ The project also includes a sales dashboard in PDF format to present business in
 * Jupyter Notebook
 * Microsoft Excel
 * Data Visualization
-* Power BI *(include only if used to create the dashboard)*
+* Power BI *(if used to create the dashboard)*
 
 ## How It Works
 
@@ -120,7 +120,7 @@ The project also includes a sales dashboard in PDF format to present business in
 5. Perform exploratory data analysis using Python and Pandas.
 6. Analyze sales data and identify patterns.
 7. Present the results through a sales dashboard.
-8. Export the dashboard as a PDF file for easy viewing.
+8. Export the dashboard as a PDF file and save a dashboard image for preview.
 
 ## Project Structure
 
@@ -129,13 +129,14 @@ Ecommerce_Data_Analysis/
 ├── Clean_Ecommerce.csv
 ├── Ecommerce.ipynb
 ├── Ecommerce_Sales_Dashboard.pdf
+├── E-commerce_Sales_Dashboard.png
 ├── Ecommerce_Unclean_Project.xlsx
 └── README.md
 ```
 
 ## How to Run
 
-1. Download or clone this repository.
+1. Clone or download the repository.
 
 2. Make sure the project files are available in the same folder.
 
@@ -151,8 +152,11 @@ Ecommerce_Data_Analysis/
 
 6. Run the notebook cells in order to explore the data analysis.
 
-7. Open `Ecommerce_Sales_Dashboard.pdf` to view the sales dashboard.
+7. Open `Ecommerce_Sales_Dashboard.pdf` to view the complete dashboard.
 
+## 📸 Dashboard Preview
+
+![E-commerce Sales Dashboard](E-commerce_Sales_Dashboard.png)
 
 ## Data Analysis
 
@@ -171,6 +175,5 @@ The specific insights depend on the columns available in the dataset and the ana
 ## Note
 
 The quality of the analysis depends on the available dataset, data-cleaning process, and selected analytical methods. The dashboard presents the results of the analysis in a visual format.
-
 
 ⭐ If you find these projects useful, feel free to explore the repository!
