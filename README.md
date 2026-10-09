@@ -1,4 +1,10 @@
-# AI-Based Language Detection System 🌍
+# 📊 Data Science Projects
+
+This repository contains data science and machine learning projects focused on data analysis, text classification, and extracting meaningful insights using Python and related technologies.
+
+---
+
+# 1. 🌍 AI-Based Language Detection System
 
 ## About the Project
 
@@ -61,7 +67,7 @@ language_detection/
 
 5. Run the notebook cells in order.
 
-6. Enter a text when prompted to see the predicted language, confidence score, and Top-3 predictions.
+6. Enter text when prompted to see the predicted language, confidence score, and Top-3 predictions.
 
 ## Machine Learning Algorithm
 
@@ -78,6 +84,93 @@ language_detection/
 
 The confidence score represents the model's predicted probability, not a guarantee that the prediction is correct. Results depend on the dataset and the input text.
 
+---
+
+# 2. 🛒 E-commerce Data Analysis
+
+## About the Project
+
+The **E-commerce Data Analysis** project focuses on analyzing e-commerce sales data to understand sales performance, customer purchasing behavior, and business trends. It involves data cleaning, exploratory data analysis, and data visualization to extract meaningful insights from the dataset.
+
+The project also includes a sales dashboard in PDF format to present business information in a clear and understandable way.
+
+## Features
+
+* **Data Cleaning:** Cleans and prepares raw e-commerce data for analysis.
+* **Exploratory Data Analysis:** Explores the dataset to identify patterns and trends.
+* **Sales Analysis:** Analyzes sales data to understand business performance.
+* **Data Visualization:** Presents information through visualizations and a sales dashboard.
+* **Business Insights:** Helps understand sales trends and customer purchasing behavior.
+
+## Technologies Used
+
+* Python
+* Pandas
+* Jupyter Notebook
+* Microsoft Excel
+* Data Visualization
+* Power BI *(include only if used to create the dashboard)*
+
+## How It Works
+
+1. Load the raw e-commerce dataset from an Excel file.
+2. Inspect the dataset and identify data quality issues.
+3. Clean and preprocess the data.
+4. Save the cleaned data as a CSV file.
+5. Perform exploratory data analysis using Python and Pandas.
+6. Analyze sales data and identify patterns.
+7. Present the results through a sales dashboard.
+8. Export the dashboard as a PDF file for easy viewing.
+
+## Project Structure
+
+```text
+Ecommerce_Data_Analysis/
+├── Clean_Ecommerce.csv
+├── Ecommerce.ipynb
+├── Ecommerce_Sales_Dashboard.pdf
+├── Ecommerce_Unclean_Project.xlsx
+└── README.md
+```
+
+## How to Run
+
+1. Download or clone this repository.
+
+2. Make sure the project files are available in the same folder.
+
+3. Install the required libraries:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
+
+4. Open `Ecommerce.ipynb` in Jupyter Notebook, Google Colab, or VS Code.
+
+5. Ensure the dataset paths used in the notebook are correct.
+
+6. Run the notebook cells in order to explore the data analysis.
+
+7. Open `Ecommerce_Sales_Dashboard.pdf` to view the sales dashboard.
 
 
-B.Tech Computer Science and Engineering
+## Data Analysis
+
+The project focuses on exploring e-commerce data, cleaning the dataset, analyzing sales-related information, and presenting findings through visualizations.
+
+The specific insights depend on the columns available in the dataset and the analysis performed in the notebook.
+
+## Future Improvements
+
+* Add more detailed customer segmentation.
+* Include sales forecasting.
+* Explore additional business performance metrics.
+* Develop an interactive dashboard.
+* Improve visualizations to communicate insights more effectively.
+
+## Note
+
+The quality of the analysis depends on the available dataset, data-cleaning process, and selected analytical methods. The dashboard presents the results of the analysis in a visual format.
+
+
+⭐ If you find these projects useful, feel free to explore the repository!
