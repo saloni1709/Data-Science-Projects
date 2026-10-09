@@ -156,7 +156,7 @@ Ecommerce_Data_Analysis/
 
 ## 📸 Dashboard Preview
 
-![E-commerce Sales Dashboard](E-commerce_Sales_Dashboard.png)
+![E-commerce Sales Dashboard](Ecommerce_Data_Analysis/E-commerce_Sales_Dashboard.png)
 
 ## Data Analysis
 
